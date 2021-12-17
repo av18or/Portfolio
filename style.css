@@ -49,8 +49,8 @@ a:hover {
 
 
 @keyframes p{
-    from {left: 0px; background: #caf0f8; transform: rotate(0deg)}
-    to {left: 0px; background: #90e0ef; transform: rotate(360deg)}
+    from {left: 0px; background: #caf0f8; transform: scaleY(0deg)}
+    to {left: 0px; background: #90e0ef; transform: scaleX(360deg)}
     }
 
 
