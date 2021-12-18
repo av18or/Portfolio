@@ -6,7 +6,7 @@ body {
 
 
 #modem {
-    padding: 300px;
+    padding: 80px;
     margin: auto;
     animation: fadeIn linear 8s;
     
@@ -20,7 +20,17 @@ body {
   }
 
 
-  @keyframes fadein{
+  
+
+  
+
+  @keyframes enter{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes fadein{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
@@ -30,4 +40,23 @@ body {
       
       -webkit-animation: 5s ease 0s normal forwards 1 fadein;
       animation: 10s ease 0s normal forwards 1 fadein;
+  }
+  
+
+  #enter {
+      align-items: center;
+    width: 100px;
+  margin: auto;
+  
+    
+    
+    transition: all 800ms ease-in-out;
+  }
+
+  #enter:hover {
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    padding:15px;
+    
   }
