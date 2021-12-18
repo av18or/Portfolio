@@ -4,6 +4,9 @@ body {
     background-color: #457b9d;
 }
 
+#floater {
+    padding: 100px;
+}
 
 #modem {
     align-items: center;
