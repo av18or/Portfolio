@@ -6,7 +6,7 @@ body {
 
 
 #modem {
-    
+    align-items: center;
     margin: auto;
     animation: fadeIn linear 8s;
     
