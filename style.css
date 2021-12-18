@@ -52,15 +52,15 @@ a:hover {
 
 
 @keyframes p{
-    from {left: 0px; background: #90e0ef; transform: scaleY(0deg)}
-    to {left: 0px; background: #caf0f8; transform: scaleX(360deg)}
+    from {left: 0px; background: #90e0ef; transform: rotate(0deg)}
+    to {left: 0px; background: #caf0f8; transform: rotate(360deg)}
     }
 
 
     .fade-in-text {
         
         font-family: Arial, Helvetica, sans-serif;
-        
+        text-align: center;
         color: black;
         animation: fadeIn linear 2s;
         -webkit-animation: fadeIn linear 2s;
