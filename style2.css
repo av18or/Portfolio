@@ -6,7 +6,7 @@ body {
 
 
 #modem {
-    padding: 80px;
+    
     margin: auto;
     animation: fadeIn linear 8s;
     
@@ -44,12 +44,10 @@ body {
   
 
   #enter {
-      align-items: center;
+    align-items: center;
     width: 100px;
-  margin: auto;
-  
-    
-    
+    margin: auto;
+    padding: 20px;
     transition: all 800ms ease-in-out;
   }
 
