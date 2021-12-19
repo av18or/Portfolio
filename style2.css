@@ -12,6 +12,7 @@ body {
     align-items: center;
     margin: auto;
     animation: fadeIn linear 8s;
+    padding: 10px;
     
 }
 
