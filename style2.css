@@ -49,7 +49,9 @@ body {
 
   #enter {
     align-items: center;
-    width: 100px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: lawngreen;
     margin: auto;
     padding: 20px;
     transition: all 800ms ease-in-out;
