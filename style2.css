@@ -10,7 +10,6 @@ body {
 
 #modem {
     align-items: center;
-    margin: auto;
     animation: fadeIn linear 8s;
     padding: 10px;
     
@@ -46,13 +45,12 @@ body {
       animation: 10s ease 0s normal forwards 1 fadein;
   }
   
+  
 
   #enter {
-    align-items: center;
+    
+    margin:auto;
     width: 500px;
-    border-radius: 10px;
-    border-color: lawngreen;
-    margin: auto;
     padding: 20px;
     transition: all 800ms ease-in-out;
   }
@@ -61,6 +59,6 @@ body {
     -ms-transform: rotate(360deg); /* IE 9 */
     -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
     transform: rotate(360deg);
-    padding:15px;
+   
     
   }
