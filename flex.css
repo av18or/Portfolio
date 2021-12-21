@@ -1,0 +1,101 @@
+.flexbox-container{
+    padding: 10em 10em 10em 10em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    background-color: #d8f3dc;
+    justify-content:space-evenly;
+    
+}
+
+.flexbox-item {
+    width: 500px;
+    margin: 10px;
+    border: 2px solid #081c15;
+    box-shadow: 3px 3px black;
+    border-radius: 10px;
+    background-color: #74c69d;
+    
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10px;
+}
+
+.flexbox-1 {
+    min-height: 300px;
+}
+
+.flexbox-1:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-2 {
+    min-height: 300px;
+}
+
+.flexbox-2:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-3 {
+    min-height: 300px;
+}
+
+.flexbox-3:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-4 {
+    min-height: 300px;
+}
+
+.flexbox-4:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-5 {
+    min-height: 300px;
+}
+
+.flexbox-5:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-6 {
+    min-height: 300px;
+}
+
+.flexbox-6:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-7 {
+    min-height: 300px;
+}
+
+.flexbox-7:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-8 {
+    min-height: 300px;
+}
+
+.flexbox-8:hover {
+    transform:scale(1.5) 
+}
+
+.flexbox-9 {
+    min-height: 300px;
+}
+
+.flexbox-9:hover {
+    transform:scale(1.5) 
+}
+
+
+
+
