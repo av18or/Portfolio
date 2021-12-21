@@ -27,7 +27,7 @@
 }
 
 .shape {
-    background-color: greenyellow;
+    background-color: silver;
     margin: 10px;
     width: 100px;
     height: 100px;;
@@ -48,8 +48,8 @@
 }
 
 .shape3 {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color:deepskyblue;
     border: solid 2px black;
     border-end-end-radius: 10px;
@@ -57,21 +57,65 @@
 }
 
 .shape4{
-    width: 25px;
-    height: 15px;
+    width: 35px;
+    height: 20px;
     background-color: white;
     border: solid 1px black;
     
     
 }
 
+.shape5 {
+     
+    width: 0;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #9c6644;
+      
+}
+
+.shape5:hover {
+    transform: scale(1.2);
+}
+
+.snowpeak:hover {
+    transform: scale(1.4);
+}
+
+.snowpeak {
+     
+        width: 0;
+        height: 10px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #9caaa9;
+        
+      
+}
+
+.snowpeak2 {
+     
+    width: 0;
+    height: 20px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #606c38;
+  
+}
+
+.snowpeak2:hover {
+    transform: scale(1.5);
+}
+
+
 .smallcircle {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: grey;
     border-radius: 50px;
     border: solid 1px black;
-    margin: 10px;
+    margin: 15px;
 }
 
 .shape:hover {
@@ -118,8 +162,26 @@
 
 .flexbox-2 {
     min-height: 300px;
-    flex-direction: grid;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.grill {
+    width: 200px;
+    margin: 0px;
+    border: 2px solid #081c15;
+    box-shadow: 3px 3px black;
+    border-radius: 10px;
+    background-color: grey;
+    display: flex;
+    flex-direction: grid;
+    
+}
+.grill:hover {
+    transform: scale(1.5);
 }
 
 .flexbox-2:hover {
@@ -131,6 +193,8 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    font-family: arial;
+    font-weight: bold;
 }
 
 .flexbox-4 {
@@ -140,6 +204,15 @@
     font-family: arial;
     font-weight: bold;
     
+}
+
+.flexbox-5 {
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    font-family: arial;
+    font-weight: bold;
+    font-size: medium;
     
 }
 
@@ -202,7 +275,7 @@
         transform:rotate(0deg);
     }
     to {
-        transform:rotate(10000deg);
+        transform:rotate(5000deg);
     }
 }
 
@@ -213,6 +286,7 @@
         transform:rotate(0deg);
     }
     to {
-        transform:rotate(10000deg);
+        transform:rotate(5000deg);
     }
+
   }
