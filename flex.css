@@ -15,17 +15,61 @@
     box-shadow: 3px 3px black;
     border-radius: 10px;
     background-color: #74c69d;
+    display: flex;
+    flex-direction: grid;
     
 }
 
 .wrapper {
     background-color: whitesmoke;
-    padding: 1em 1em 1em 1em;
+    
     border-radius: 10px;
 }
 
+.shape {
+    background-color: greenyellow;
+    margin: 10px;
+    width: 100px;
+    height: 100px;;
+    border-radius: 50px;
+    border: solid 2px black;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.shape2{
+    background-color: darkorange;
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    
+}
+
+.shape:hover {
+    transform: scale(1.4);
+}
+
+.shape2:hover {
+    transform: scale(1.9);
+}
+
+.inner-shape {
+    background-color:cyan;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px black;
+    
+}
+
+
 .flexbox-1 {
     min-height: 300px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .flexbox-1:hover {
@@ -34,6 +78,8 @@
 
 .flexbox-2 {
     min-height: 300px;
+    flex-direction: grid;
+    align-items: center;
 }
 
 .flexbox-2:hover {
@@ -42,6 +88,9 @@
 
 .flexbox-3 {
     min-height: 300px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flexbox-3:hover {
