@@ -33,8 +33,9 @@
     height: 100px;;
     border-radius: 50px;
     border: solid 2px black;
-    align-items: center;
-    justify-content: space-evenly;
+    
+    
+    
     
 }
 
@@ -46,13 +47,51 @@
     
 }
 
+.shape3 {
+    width: 50px;
+    height: 50px;
+    background-color:deepskyblue;
+    border: solid 2px black;
+    border-end-end-radius: 10px;
+    
+}
+
+.shape4{
+    width: 25px;
+    height: 15px;
+    background-color: white;
+    border: solid 1px black;
+    
+    
+}
+
+.smallcircle {
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 50px;
+    border: solid 1px black;
+    margin: 10px;
+}
+
 .shape:hover {
     transform: scale(1.4);
+    
+    animation: colorchange 5s;
+    
 }
 
 .shape2:hover {
     transform: scale(1.9);
 }
+
+.shape3:hover {
+    transform: scale(1.5);
+    animation: spin 5s;
+}
+
+
+
 
 .inner-shape {
     background-color:cyan;
@@ -60,6 +99,7 @@
     height: 50px;
     border-radius: 25px;
     border: solid 1px black;
+    
     
 }
 
@@ -91,6 +131,16 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+}
+
+.flexbox-4 {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: arial;
+    font-weight: bold;
+    
+    
 }
 
 .flexbox-3:hover {
@@ -147,4 +197,22 @@
 
 
 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(10000deg);
+    }
+}
 
+@keyframes colorchange {
+    from {background-color: greenyellow;}
+    to {background-color:turquoise;}
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(10000deg);
+    }
+  }
