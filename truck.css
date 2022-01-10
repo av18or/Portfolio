@@ -65,7 +65,8 @@ body {
 
   .particle {
     font-family: sans-serif;
-    font-size: 16pt;
+    font-size: 20pt;
+    font-weight: bold;
     text-align: center;
     
 }
@@ -285,6 +286,6 @@ p {
     }
 
     .fab {
-      font-size: 50pt;
+      font-size: 60pt;
     }
   }
