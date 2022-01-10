@@ -170,8 +170,8 @@ p {
     .grid-container {
         display: flex;
         flex-wrap: wrap;
-        padding: 0px;
-        justify-content: center;
+        padding: 10px;
+        min-width: 300px;
         margin-top: 5px;
         margin-left: 1px;
         background-color: #5c6b73;
@@ -183,8 +183,8 @@ p {
         border-radius: 5px;
         border: solid 1px black;
         font-size: 30px;
-        text-align: center;
-        justify-self: center;
+        
+        
         
         
         
@@ -193,7 +193,7 @@ p {
 
       .navbar {
         display: flex;
-        min-width: 300px;
+        min-width: 585px;
         
         background-color: #253237;
         border-radius: 5px;
