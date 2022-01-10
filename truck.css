@@ -117,9 +117,15 @@ body {
     border-radius: 5px;
     min-width: 100%;
     animation: fadeIn 2s;
+  
     
+}
 
-    
+h1 {
+  font-family: Arial;
+  color: white;
+  font-style: italic;
+  padding-left: 20px;
 }
 
 .box {
