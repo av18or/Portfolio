@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #5c6b73;
-    padding: 10px;
+    padding: 50px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     margin-left: 100px;
@@ -37,7 +37,7 @@ body {
   .article-container {
     
     background-color: #e0fbfc;
-    padding: 10px;
+    padding: 5px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     margin-left: 100px;
@@ -45,6 +45,7 @@ body {
     margin-top: 50px;
     border-radius: 5px; 
     width: auto;
+    
       
   }
 
@@ -57,7 +58,7 @@ body {
     padding: 20px;
     margin: 10px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     
     
   }
@@ -65,6 +66,7 @@ body {
   .particle {
     font-family: sans-serif;
     font-size: 16pt;
+    text-align: center;
     
 }
 
@@ -231,8 +233,8 @@ p {
 
 
       .article-container {
-        display: flex;
-        flex-wrap: wrap;
+        
+        
         padding: 10px;
         min-width: 300px;
         margin-top: 5px;
@@ -280,5 +282,9 @@ p {
      height: 90px;
      
      padding-left: 0px;
+    }
+
+    .fab {
+      font-size: 50pt;
     }
   }
