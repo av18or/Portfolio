@@ -2,6 +2,7 @@
 body {
    
     background-color: #9db4c0;
+    text-align: center;
     
 }
 
@@ -94,6 +95,10 @@ ul {
 }
 
 
+h1 {
+    font-family: microsoft phagspa;
+    
+}
 
 p {
     font-family: Arial;
