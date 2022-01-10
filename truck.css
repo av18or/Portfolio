@@ -1,0 +1,184 @@
+
+body {
+   
+    background-color: #c2dfe3;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 5px; 
+    width: auto;
+
+      
+  }
+  .grid-item {
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    
+    
+  }
+
+
+  img {
+      min-width: 100%;
+      max-width: 100%;
+      border-radius: 5px;
+      
+  }
+
+  
+  .t1 {
+    animation: fadeIn linear 3s;
+  }
+
+  .t2 {
+    animation: fadeIn linear 4s;
+  }
+
+  .t3 {
+    animation: fadeIn linear 5s;
+  }
+
+  .t4 {
+    animation: fadeIn linear 6s;
+  }
+
+  .t5 {
+    animation: fadeIn linear 7s;
+  }
+
+  .t6 {
+    animation: fadeIn linear 8s;
+  }
+
+
+ .navbar {
+    display: flex;
+   
+    background-color: #253237;
+    border-radius: 5px;
+    min-width: 100%;
+    justify-content: space-around;
+
+    
+}
+
+.box {
+    
+    width: auto;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    font-family: arial;
+    color: white;
+    font-size: x-large;
+}
+
+
+
+p {
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+.title {
+    font-family: Arial;
+    color: white;
+    font-size: x-large;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    
+  }
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+  .fab {
+      color: white;
+      font-size: xxx-large;
+  }
+
+  .fab:hover {
+      
+      animation: spin 2s;
+  }
+
+
+
+
+
+  @media screen and (max-width: 700px) {
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    
+    img {
+        max-width: 500px;
+        min-width: 300px;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        margin: 10px;
+      }
+
+
+      .grid-item {
+        
+        border-radius: 5px;
+        border: solid 1px black;
+        font-size: 30px;
+        text-align: center;
+        
+        
+      }
+
+
+      .navbar {
+        display: flex;
+       flex-wrap: wrap;
+        background-color: #253237;
+        border-radius: 5px;
+        min-width: 100%;
+        justify-content: flex-start;
+    
+        
+    }
+
+  }
