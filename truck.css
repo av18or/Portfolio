@@ -18,9 +18,9 @@ body {
     margin-top: 50px;
     border-radius: 5px; 
     width: auto;
-
       
   }
+
   .grid-item {
     background-color: white;
     border-radius: 5px;
@@ -32,6 +32,43 @@ body {
     
     
   }
+
+
+  .article-container {
+    
+    background-color: #e0fbfc;
+    padding: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 5px; 
+    width: auto;
+      
+  }
+
+
+
+  .article {
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    
+    
+  }
+
+  .particle {
+    font-family: sans-serif;
+    font-size: 16pt;
+    
+}
+
+
 
 
   img {
@@ -72,7 +109,7 @@ body {
     background-color: #253237;
     border-radius: 5px;
     min-width: 100%;
-    
+    animation: fadeIn 2s;
 
     
 }
@@ -89,7 +126,7 @@ body {
 ul {
     list-style-type: none;
     font-family: arial;
-    color: white;
+    color: black;
     font-size: x-large;
     
 }
@@ -103,7 +140,8 @@ h1 {
 
 p {
     font-family: Arial;
-    font-size: 16pt;
+    font-size: 10pt;
+    
 }
 
 .title {
@@ -114,13 +152,17 @@ p {
 
 .main:hover {
   transform: scale(1.2);
+  
 }
 
 .main {
   padding-left: 20px;
-  animation: fadeIn 2s;
+  animation: fadeIn 4s;
 }
 
+.fab {
+  animation: fadeIn 5s;
+}
 
 
 
@@ -185,12 +227,29 @@ p {
         border: solid 1px black;
         font-size: 30px;
         
-        
+      }
+
+
+      .article-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        min-width: 300px;
+        margin-top: 5px;
+        margin-left: 1px;
+        background-color: #e0fbfc;
+      }
+
+      
+
+      .article {
+        min-width: 500px;
+        border-radius: 5px;
+        border: solid 1px black;
         
         
         
       }
-
 
       .navbar {
         display: flex;
