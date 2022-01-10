@@ -155,7 +155,8 @@ p {
         flex-wrap: wrap;
         padding: 0px;
         justify-content: center;
-        margin: auto;
+        margin-top: 5px;
+        margin-left: 1px;
         background-color: #5c6b73;
       }
 
@@ -166,6 +167,8 @@ p {
         border: solid 1px black;
         font-size: 30px;
         text-align: center;
+        justify-self: center;
+        
         
         
       }
