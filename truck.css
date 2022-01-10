@@ -1,7 +1,7 @@
 
 body {
    
-    background-color: white;
+    background-color: #253237;
     text-align: center;
     
 }
@@ -9,7 +9,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #5c6b73;
+    
     padding: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -31,7 +31,7 @@ body {
     margin: 10px;
     font-size: 30px;
     text-align: center;
-    box-shadow:  3px 3px #253237;
+    
     
     
     
@@ -40,7 +40,7 @@ body {
 
   .article-container {
     
-    background-color: #5c6b73;
+    
     padding: 10px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -117,6 +117,7 @@ body {
     border-radius: 5px;
     min-width: 100%;
     animation: fadeIn 2s;
+    
 
     
 }
@@ -134,7 +135,7 @@ ul {
     list-style-type: none;
     font-family: arial;
     color: black;
-    font-size: x-large;
+    font-size: large;
     
     
 }
@@ -143,10 +144,7 @@ ul {
 
 
 
-h1 {
-    font-family: microsoft phagspa;
-    
-}
+
 
 p {
     font-family: Arial;
@@ -228,7 +226,7 @@ p {
         min-width: 300px;
         margin-top: 5px;
         margin-left: 1px;
-        background-color: #5c6b73;
+        
       }
 
 
@@ -248,7 +246,7 @@ p {
         min-width: 300px;
         margin-top: 5px;
         margin-left: 1px;
-        background-color: #5c6b73;
+        
       }
 
       
@@ -311,7 +309,7 @@ p {
     min-width: 300px;
     margin-top: 5px;
     margin-left: 1px;
-    background-color: #5c6b73;
+    
   }
 
   .article-container {
@@ -321,7 +319,7 @@ p {
     min-width: 300px;
     margin-top: 5px;
     margin-left: 1px;
-    background-color: #5c6b73;
+    
   }
 
 
