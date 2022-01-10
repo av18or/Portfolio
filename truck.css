@@ -132,7 +132,10 @@ ul {
     color: black;
     font-size: x-large;
     
+    
 }
+
+
 
 
 
@@ -165,6 +168,7 @@ p {
 
 .fab {
   animation: fadeIn 5s;
+  
 }
 
 
