@@ -69,11 +69,10 @@ body {
 
  .navbar {
     display: flex;
-   
     background-color: #253237;
     border-radius: 5px;
     min-width: 100%;
-    justify-content: space-around;
+    
 
     
 }
@@ -81,7 +80,7 @@ body {
 .box {
     
     width: auto;
-    justify-content: space-evenly;
+    
     z-index: 1;
     position: sticky;
     top: 0;
@@ -92,7 +91,9 @@ ul {
     font-family: arial;
     color: white;
     font-size: x-large;
+    
 }
+
 
 
 h1 {
@@ -108,8 +109,18 @@ p {
 .title {
     font-family: Arial;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
 }
+
+.main:hover {
+  transform: scale(1.2);
+}
+
+.main {
+  padding-left: 20px;
+}
+
+
 
 
 @keyframes fadeIn {
@@ -185,9 +196,26 @@ p {
         background-color: #253237;
         border-radius: 5px;
         min-width: 100%;
-        justify-content: flex-start;
+        justify-content: center;
     
         
     }
 
+    h1 {
+      font-size: medium;
+      text-align: left;
+      
+    }
+
+    .description {
+      float: left;
+     
+    }
+
+
+    .main {
+     height: 60px;
+     width: 5px;
+     padding-left: 0px;
+    }
   }
