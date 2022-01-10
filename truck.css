@@ -10,12 +10,12 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #5c6b73;
-    padding: 50px;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+    padding: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
     border-radius: 5px; 
     width: auto;
       
@@ -39,12 +39,12 @@ body {
   .article-container {
     
     background-color: #5c6b73;
-    padding: 5px;
+    padding: 10px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
     border-radius: 5px; 
     width: auto;
     
