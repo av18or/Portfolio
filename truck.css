@@ -79,7 +79,7 @@ body {
 
 .box {
     
-    width: auto;
+    width: 100%;
     
     z-index: 1;
     position: sticky;
@@ -192,7 +192,7 @@ p {
 
       .navbar {
         display: flex;
-       flex-wrap: wrap;
+      
         background-color: #253237;
         border-radius: 5px;
         min-width: 100%;
