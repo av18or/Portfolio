@@ -29,7 +29,7 @@ body {
     margin: 10px;
     font-size: 30px;
     text-align: center;
-    box-shadow:  5px 5px;
+    box-shadow:  3px 3px #253237;
     
     
     
@@ -299,7 +299,7 @@ p {
 
   @media screen and (max-width: 1024px) {
 
-
+    
    
 
   .grid-container {
