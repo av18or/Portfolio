@@ -27,7 +27,7 @@ body {
     background-color: white;
     border-radius: 5px;
     border: solid 1px black;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     font-size: 30px;
     text-align: center;
@@ -259,7 +259,7 @@ p {
 
 
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 600px) {
 
     .navbar ul {
       padding-left: 10px;
@@ -275,10 +275,26 @@ p {
         
     }
     
-    img {
-        max-width: 500px;
-        min-width: 300px;
+    .main {
+       max-height: 60px;
+      min-width: 160px;
     }
+
+    .fab {
+      color: white;
+      font-size: small;
+  }
+  
+  h1 {
+    font-size: large;
+  }
+    .t1 .t2 .t3 .t4 .t5 .t6 {
+      max-width: 600px;
+      min-width: 600px;
+    }
+  
+    
+
 
     .grid-container {
         display: flex;
