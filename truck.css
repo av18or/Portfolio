@@ -214,45 +214,7 @@ p {
 
 
 
-  @media screen and (max-width: 1024px) {
-
-
-    .navbar ul {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    
-    h1 {
-      font-family: Arial;
-      color: white;
-      font-style: italic;
-      padding-left: 10px;
-    }
-
-  .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    min-width: 400px;
-    margin-top: 5px;
-    margin-left: 1px;
-    
-  }
-
-  .article-container {
-        
-        
-    padding: 10px;
-    min-width: 300px;
-    margin-top: 5px;
-    margin-left: 1px;
-    
-  }
-
-
-
-
-  }
+  
 
 
 
@@ -268,8 +230,8 @@ p {
 
 
     body {
-       
-        
+        align-items: center;
+        margin: auto;
         min-width: 600px;
         max-width: 600px;
         
@@ -300,7 +262,7 @@ p {
 
 
     .grid-container {
-        
+        display: flex;
         flex-wrap: wrap;
         padding: 10px;
         min-width: 300px;
@@ -318,10 +280,15 @@ p {
         
       }
 
-
-     
-
-      
+      .article-container {
+        
+        
+        padding: 10px;
+        min-width: 300px;
+        margin-top: 5px;
+        margin-left: 1px;
+        
+      }
 
 
       .navbar {
