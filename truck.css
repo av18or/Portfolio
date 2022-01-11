@@ -268,11 +268,10 @@ p {
 
 
     body {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
+       
+        
         min-width: 600px;
+        max-width: 600px;
         
     }
     
