@@ -277,13 +277,13 @@ p {
     
     .main {
        max-height: 60px;
-      min-width: 160px;
+      min-width: 100px;
       
     }
 
     .fab {
       color: white;
-      font-size: small;
+      
       padding-left: 10px;
       padding-right: 10px;
   }
@@ -292,15 +292,15 @@ p {
     font-size: large;
   }
     .t1 .t2 .t3 .t4 .t5 .t6 {
-      max-width: 600px;
-      min-width: 600px;
+      max-width: 500px;
+      min-width: 500px;
     }
   
     
 
 
     .grid-container {
-        display: flex;
+        
         flex-wrap: wrap;
         padding: 10px;
         min-width: 300px;
@@ -323,7 +323,7 @@ p {
         
         
         padding: 10px;
-        min-width: 300px;
+        min-width: 200px;
         margin-top: 5px;
         margin-left: 1px;
         
@@ -332,7 +332,8 @@ p {
       
 
       .article {
-        min-width: 500px;
+        min-width: 400px;
+        max-width: 500px;
         border-radius: 5px;
         border: solid 1px black;
         
@@ -365,15 +366,9 @@ p {
     }
 
 
-    .main {
-     height: 90px;
-     
-     padding-left: 0px;
-    }
+    
 
-    .fab {
-      font-size: 60pt;
-    }
+    
   }
 
 
