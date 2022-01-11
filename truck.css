@@ -13,9 +13,9 @@ body {
     padding: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
     border-radius: 5px; 
     
       
@@ -30,7 +30,7 @@ body {
     padding: 10px;
     margin: 10px;
     font-size: 30px;
-    text-align: center;
+    
     
     
     
@@ -44,9 +44,9 @@ body {
     padding: 10px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
     border-radius: 5px; 
     
     
@@ -213,7 +213,14 @@ p {
   }
 
 
+footer {
+  font-family: Arial;
+    color: white;
+    font-size:medium;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
+}
   
 
 
@@ -287,6 +294,8 @@ p {
         
         
       }
+
+     
 
 
       .navbar {
