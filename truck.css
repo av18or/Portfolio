@@ -13,11 +13,11 @@ body {
     padding: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 40px;
     border-radius: 5px; 
-    width: auto;
+    
       
   }
 
@@ -44,11 +44,11 @@ body {
     padding: 10px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 40px;
     border-radius: 5px; 
-    width: auto;
+    
     
       
   }
@@ -231,9 +231,9 @@ p {
 
     body {
         align-items: center;
-        margin: auto;
-        min-width: 600px;
-        max-width: 600px;
+        margin: 0;
+        min-width: 200px;
+        
         
     }
     
@@ -265,7 +265,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        
+        margin: 0;
         
         
       }
@@ -281,7 +281,7 @@ p {
 
       .article-container {
         
-        
+        margin: 0;
         padding: 10px;
        
         
