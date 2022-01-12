@@ -282,7 +282,7 @@ footer {
 .collapsible {
   
   display: flex;
-  background-color: #d00916;
+  background-color: #e0fbfc;
   color: black;
   cursor: pointer;
   padding: 10px;
@@ -444,8 +444,17 @@ footer {
     }
 
     
-    
+    .build {
+      position: sticky;
+      top: 8%;
+      z-index: 1;
+    }
 
+    ul {
+      font-size: 12pt;
+    }
+
+    
     
   }
 
