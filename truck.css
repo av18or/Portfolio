@@ -3,7 +3,7 @@ body {
    
     background-color: #253237;
     text-align: center;
-    
+    margin: 0px;
 }
 
 .grid-container {
@@ -15,7 +15,7 @@ body {
     grid-row-gap: 10px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px; 
     
       
@@ -113,11 +113,11 @@ body {
 
  .navbar {
     display: flex;
-    background-color: #253237;
-    border-radius: 5px;
+    background-color: #5c6b73;
+    
     min-width: 100%;
     animation: fadeIn 2s;
-  
+    
     
 }
 
@@ -180,8 +180,10 @@ p {
   animation: fadeIn 4s;
 }
 
-.fab {
-  animation: fadeIn 5s;
+footer {
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
   
 }
 
@@ -205,6 +207,7 @@ p {
   .fab {
       color: white;
       font-size: xxx-large;
+      animation: fadeIn 5s;
   }
 
   .fab:hover {
@@ -300,15 +303,11 @@ footer {
 
       .navbar {
         
-       
         
-        background-color: #253237;
-        border-radius: 5px;
-        
-        justify-content: flex-start;
-    
-        
+        background-color: #5c6b73; 
     }
+
+
     h1 {
       font-family: Arial;
       color: white;
