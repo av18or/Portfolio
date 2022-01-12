@@ -18,6 +18,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px; 
     
       
@@ -114,7 +115,12 @@ details {
     list-style-type: none;
     font-family: arial;
     color: black;
-    font-size: large;
+    font-size: 16pt;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    text-align: left;
+    
    
     }
 
@@ -164,8 +170,8 @@ details {
 }
 
 .navbar ul {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h1 {
@@ -189,7 +195,7 @@ ul {
     list-style-type: none;
     font-family: arial;
     color: black;
-    font-size: large;
+    font-size: 16pt;
     padding: 0px;
     
 }
@@ -275,37 +281,49 @@ footer {
 
 .collapsible {
   
-  background-color: #e22d2d;
+  display: flex;
+  background-color: #d00916;
   color: black;
   cursor: pointer;
-  padding: 15px;
- 
-  min-width: 100px;
+  padding: 10px;
+  margin-top: 10px;
   border-radius: 5px;
-  
   border: solid 1px black;
-  
   text-align: center;
   outline: none;
-  font-size: 20px;
+  font-size: 16pt;
   font-weight: bold;
   
 }
 
+
+
+.build {
+  position: sticky;
+  top: 8%;
+  z-index: 1;
+}
+
+
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #e0fbfc;
+  
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
   margin-top: 5px;
-  padding: 0 18px;
+  padding: 20px;
+  
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
   border-radius: 0px;
   text-align: center;
+
+  
   
 }
 
@@ -401,6 +419,9 @@ footer {
         margin: 20px;
       }
      
+      .maintlog {
+        padding: 20px;
+      }
 
 
       .navbar {
@@ -422,7 +443,7 @@ footer {
      
     }
 
-
+    
     
 
     
