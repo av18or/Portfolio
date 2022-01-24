@@ -285,14 +285,15 @@ footer {
   background-color: #e0fbfc;
   color: black;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   margin-top: 10px;
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
   border: solid 1px black;
   text-align: center;
   outline: none;
-  font-size: 16pt;
+  font-size: 12pt;
   font-weight: bold;
+  
   
 }
 
@@ -314,13 +315,14 @@ footer {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 20px;
+  
   
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
-  border-radius: 0px;
+  background-color: #e0fbfc;
+  
   text-align: center;
 
   
