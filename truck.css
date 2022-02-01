@@ -425,6 +425,9 @@ footer {
         padding: 20px;
       }
 
+      .video {
+        display: flex;
+      }
 
       .navbar {
         
