@@ -80,6 +80,7 @@ body {
     font-weight: bold;
     text-align: center;
     
+    
 }
 
 summary {
@@ -106,10 +107,8 @@ details {
   font-size: 30px;
   text-align:center;
 
-  
-  
-  
 }
+
 
     .maintlog {
     list-style-type: none;
@@ -124,6 +123,22 @@ details {
    
     }
 
+    .maintenancevideo {
+  
+      background-color: white;
+      border-radius: 5px;
+      border: solid 1px black;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-top: 40px;
+      margin-left: 70px;
+      margin-right: 70px;
+      font-size: 30px;
+      text-align:center;
+    
+    }
+
+  
 
 
   img {
@@ -423,6 +438,10 @@ footer {
      
       .maintlog {
         padding: 20px;
+      }
+
+      .maintenancevideo {
+        margin: 20px;
       }
 
       .video {
